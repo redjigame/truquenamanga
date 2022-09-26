@@ -5,12 +5,12 @@ registro 			DATETIME DEFAULT NOW(),
 quantidade 			INT NOT NULL,
 confirmacao_entrega BOOLEAN NOT NULL,
 
-	CONSTRAINT 		fk_pedido_id
+    CONSTRAINT 		fk_pedido_id
     FOREIGN KEY		(id)
     REFERENCES 		produto(id),    
     
     CONSTRAINT 		fk_cliente_id
-	FOREIGN KEY 	(id) 
+    FOREIGN KEY 	(id) 
     REFERENCES 		cliente(id)
 	
 )ENGINE = InnoDB;
