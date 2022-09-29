@@ -14,4 +14,3 @@ Desenvolvido com WAMPServeur64
 <img align="center" alt="Renaud-MySQL" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"/>
 </div>
 
-DATABASE : MySQL Workbench 8.0
